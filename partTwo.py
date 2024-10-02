@@ -1,9 +1,14 @@
 import math  
 
 def main():
-#TO DO  
+    A = int(input("Enter the length of side A: "))
+    B = int(input("Enter the length of side B: "))
+    C = pythag(A, B)
+    
+    print("The length of the hypotenuse is: ", C)
 
 def pythag(A,B):
-#TO DO  
+    C = math.sqrt(A ** 2 + B ** 2)
+    return C
 
 main()
